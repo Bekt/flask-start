@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>
+    {% block title %} My Dope Zoo {% endblock %}
+  </title>
+
+  {% block head %} {% endblock %}
+</head>
+
+{% block body %}
+<body>
+
+  {% block header %}
+    {% include "header.html" %}
+  {% endblock %}
+
+  {% block content %}
+  {% endblock %}
+
+  {% block footer %}
+    {% include "footer.html" %}
+  {% endblock %}
+
+  <script src="vendor.js"></script>
+  <script src="app.js"></script>
+
+  {% block scripts %} {% endblock %}
+
+</body>
+{% endblock %}
+
+</html>

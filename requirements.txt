@@ -1,0 +1,11 @@
+Flask
+Flask-Debugtoolbar
+Flask-Login
+Flask-Script
+Flask-SQLAlchemy
+Flask-WTF
+
+alembic
+celery
+itsdangerous
+Werkzeug
